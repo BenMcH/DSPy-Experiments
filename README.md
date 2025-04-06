@@ -34,6 +34,7 @@ The increased time required to optimize our DSPy program paid off and this examp
 
 If you want to test this yourself, the requirements are fairly straight forward:
 
+* Phoenix is used for observability and the ability to see traces. Run `docker compose up -d` to start this container. You can view traces in your browser at http://localhost:6006
 * Package management is done using `uv`.
 * The python version used for this demo was 3.12.8
 * Simply run `uv install` and begin running cells in `dspy.ipynb`!
