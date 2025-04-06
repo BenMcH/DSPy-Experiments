@@ -1,0 +1,63 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "text": "BOO BABE! U ENJOYIN YOURJOB? U SEEMED 2 B GETTIN ON WELL HUNNY!HOPE URE OK?TAKE CARE & I\u0092LLSPEAK 2U SOONLOTS OF LOVEME XXXX.",
+      "classification": "ham"
+    },
+    {
+      "augmented": true,
+      "text": "Yes..but they said its IT.,",
+      "classification": "ham"
+    },
+    {
+      "augmented": true,
+      "text": "No. To be nosy I guess. Idk am I over reacting if I'm freaked?",
+      "classification": "ham"
+    },
+    {
+      "augmented": true,
+      "text": "Horrible gal. Me in sch doing some stuff. How come u got mc?",
+      "classification": "ham"
+    },
+    {
+      "text": "Mmmm ... Fuck ... Not fair ! You know my weaknesses ! *grins* *pushes you to your knee's* *exposes my belly and pulls your head to it* Don't forget ... I know yours too *wicked smile*",
+      "classification": "ham"
+    },
+    {
+      "text": "Congratulations! Thanks to a good friend U have WON the \u00a32,000 Xmas prize. 2 claim is easy, just call 08718726971 NOW! Only 10p per minute. BT-national-rate.",
+      "classification": "spam"
+    },
+    {
+      "text": "Sppok up ur mob with a Halloween collection of nokia logo&pic message plus a FREE eerie tone, txt CARD SPOOK to 8007",
+      "classification": "spam"
+    },
+    {
+      "text": "My Parents, My Kidz, My Friends n My Colleagues. All screaming.. SURPRISE !! and I was waiting on the sofa.. ... ..... ' NAKED...!",
+      "classification": "ham"
+    }
+  ],
+  "signature": {
+    "instructions": "Given the fields `text`, produce the fields `classification`.",
+    "fields": [
+      {
+        "prefix": "Text:",
+        "description": "${text}"
+      },
+      {
+        "prefix": "Classification:",
+        "description": "whether a text message is legitimate (ham) or spam"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "2.6.16",
+      "cloudpickle": "3.1"
+    }
+  }
+}

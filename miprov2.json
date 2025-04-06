@@ -1,0 +1,93 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "text": "Men always needs a beautiful, intelligent, caring, loving, adjustable, cooperative wife. But the law allows only one wife....",
+      "classification": "ham"
+    },
+    {
+      "augmented": true,
+      "text": "Great escape. I fancy the bridge but needs her lager. See you tomo ",
+      "classification": "ham"
+    },
+    {
+      "text": "Want a new Video Phone? 750 anytime any network mins? Half price line rental free text for 3 months? Reply or call 08000930705 for free delivery",
+      "classification": "spam"
+    },
+    {
+      "text": "Great. P diddy is my neighbor and comes for toothpaste every morning",
+      "classification": "ham"
+    },
+    {
+      "text": "Hi the way I was with u 2day, is the normal way&this is the real me. UR unique&I hope I know u 4 the rest of mylife. Hope u find wot was lost.",
+      "classification": "ham"
+    },
+    {
+      "text": "But my family not responding for anything. Now am in room not went to home for diwali but no one called me and why not coming. It makes me feel like died.",
+      "classification": "ham"
+    },
+    {
+      "text": "URGENT! Your mobile number *************** WON a \u00a32000 Bonus Caller prize on 10\/06\/03! This is the 2nd attempt to reach you! Call 09066368753 ASAP! Box 97N7QP, 150ppm",
+      "classification": "spam"
+    },
+    {
+      "text": "Summers finally here! Fancy a chat or flirt with sexy singles in yr area? To get MATCHED up just reply SUMMER now. Free 2 Join. OptOut txt STOP Help08714742804",
+      "classification": "spam"
+    },
+    {
+      "text": "Meet after lunch la...",
+      "classification": "ham"
+    },
+    {
+      "text": "Horrible gal. Me in sch doing some stuff. How come u got mc?",
+      "classification": "ham"
+    },
+    {
+      "text": "U still havent got urself a jacket ah?",
+      "classification": "ham"
+    },
+    {
+      "text": "HMM yeah if your not too grooved out! And im looking forward to my pound special :)",
+      "classification": "ham"
+    },
+    {
+      "text": "Urgent UR awarded a complimentary trip to EuroDisinc Trav, Aco&Entry41 Or \u00a31000. To claim txt DIS to 87121 18+6*\u00a31.50(moreFrmMob. ShrAcomOrSglSuplt)10, LS1 3AJ",
+      "classification": "spam"
+    },
+    {
+      "text": "Yes..but they said its IT.,",
+      "classification": "ham"
+    },
+    {
+      "text": "Will you be here for food",
+      "classification": "ham"
+    },
+    {
+      "text": "Ur balance is now \u00a3600. Next question: Complete the landmark, Big, A. Bob, B. Barry or C. Ben ?. Text A, B or C to 83738. Good luck!",
+      "classification": "spam"
+    }
+  ],
+  "signature": {
+    "instructions": "Analyze the provided text message and determine whether it is classified as \"ham\" (non-spam) or \"spam\" based on its content and contextual features.",
+    "fields": [
+      {
+        "prefix": "Text:",
+        "description": "${text}"
+      },
+      {
+        "prefix": "Classification:",
+        "description": "whether a text message is legitimate (ham) or spam"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "2.6.16",
+      "cloudpickle": "3.1"
+    }
+  }
+}

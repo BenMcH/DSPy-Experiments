@@ -1,0 +1,91 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "text": "Have a good trip. Watch out for . Remember when you get back we must decide about easter.",
+      "classification": "ham"
+    },
+    {
+      "text": "Don't forget though that I love you .... And I walk beside you. Watching over you and keeping your heart warm.",
+      "classification": "ham"
+    },
+    {
+      "text": "Friendship is not a game to play, It is not a word to say, It doesn\\'t start on March and ends on May, It is tomorrow, yesterday, today and e",
+      "classification": "ham"
+    },
+    {
+      "text": "Er yep sure. Props?",
+      "classification": "ham"
+    },
+    {
+      "text": "Congratulations ur awarded 500 of CD vouchers or 125gift guaranteed & Free entry 2 100 wkly draw txt MUSIC to 87066 TnCs www.Ldew.com1win150ppmx3age16",
+      "classification": "spam"
+    },
+    {
+      "text": "Hey leave it. not a big deal:-) take care.",
+      "classification": "ham"
+    },
+    {
+      "text": "Hi.:)technical support.providing assistance to us customer through call and email:)",
+      "classification": "ham"
+    },
+    {
+      "text": "How are you doing? Hope you've settled in for the new school year. Just wishin you a gr8 day",
+      "classification": "ham"
+    },
+    {
+      "text": "Well then you have a great weekend!",
+      "classification": "ham"
+    },
+    {
+      "text": "U studying in sch or going home? Anyway i'll b going 2 sch later.",
+      "classification": "ham"
+    },
+    {
+      "text": "Mmmm ... Fuck ... Not fair ! You know my weaknesses ! *grins* *pushes you to your knee's* *exposes my belly and pulls your head to it* Don't forget ... I know yours too *wicked smile*",
+      "classification": "ham"
+    },
+    {
+      "text": "Someone has contacted our dating service and entered your phone becausethey fancy you! To find out who it is call from a landline 09058098002. PoBox1, W14RG 150p",
+      "classification": "spam"
+    },
+    {
+      "text": "Host-based IDPS for linux systems.",
+      "classification": "ham"
+    },
+    {
+      "text": "Ok I'm gonna head up to usf in like fifteen minutes",
+      "classification": "ham"
+    },
+    {
+      "text": "Kaiez... Enjoy ur tuition... Gee... Thk e second option sounds beta... I'll go yan jiu den msg u...",
+      "classification": "ham"
+    },
+    {
+      "text": "A gram usually runs like  &lt;#&gt; , a half eighth is smarter though and gets you almost a whole second gram for  &lt;#&gt;",
+      "classification": "ham"
+    }
+  ],
+  "signature": {
+    "instructions": "Given the fields `text`, produce the fields `classification`.",
+    "fields": [
+      {
+        "prefix": "Text:",
+        "description": "${text}"
+      },
+      {
+        "prefix": "Classification:",
+        "description": "whether a text message is legitimate (ham) or spam"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "2.6.16",
+      "cloudpickle": "3.1"
+    }
+  }
+}
